@@ -1,0 +1,281 @@
+body{
+    margin: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul,
+li{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+h1,
+h2,
+h3,
+p {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    margin-top: 18px;
+    
+}
+
+a {
+    text-decoration:none;
+    font-size: 20px;
+    color: #0E333D;
+    padding: 5px;
+    display: block;
+    font-weight: bold;
+}
+
+img {
+  max-width: 100%;
+}
+
+
+.menu {
+display: flex;
+gap: 20px;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+.casa img{
+   max-width: 100%;
+    border-radius: 50px;
+    object-fit: cover;
+}
+
+.container{
+  max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    align-items:center;
+    grid-template-columns: 1fr 1fr;
+    padding: 30px;
+}
+
+.container2{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    align-items:center;
+    grid-template-columns: 1fr 1fr ;
+
+}
+
+.meusTextos{
+padding: 30px;
+}
+
+.titulo{
+    font-size: 40px;
+    justify-items: start;
+    background: linear-gradient(90deg, #0E333D, #195E70);
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent;
+   margin-bottom:26px;
+}
+
+.paragrafo{
+    margin-bottom: 26px;
+    padding-right: 120px;
+}
+
+.botoes{
+    background: linear-gradient(90deg, #FFFFFF, #6F7E83);
+    z-index: 1;
+     position: relative;
+     border-radius: 20px;
+     margin-right: 180px;
+     
+    
+}
+
+.pesquisar{
+    color: white;
+    background-color: #0E333D;
+    border-radius: 20px;
+    position: relative;
+    z-index: 2;
+    max-width: 30%;
+    text-align: center;
+    
+}
+
+.chale img{
+height:555px;
+width: 653px ;
+object-fit: cover;
+object-position: center 70%;
+border-radius: 50px;
+
+}
+
+.container-dois{
+padding: 30px;
+max-width: 1200px;
+margin: 0 auto; 
+margin-bottom: 30px;
+}
+
+
+.imagem img{
+    border-radius: 50px;
+    height: 200px;
+    padding: 10px;
+
+}
+
+  .um {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 10px;
+  align-items: center;
+   
+  }
+
+  .quadradoTextos{
+   flex-wrap: wrap;
+justify-content: center;
+  }
+ 
+
+.lermais{
+  color: white;
+    background-color: #0E333D;
+    border-radius: 20px;
+    position: relative;
+    z-index: 2;
+    max-width: 39%;
+    align-items:center;
+  
+}
+
+.lermais1{
+  color: white;
+
+    text-align: center;
+  
+}
+
+.lermais1::after{
+content: "➜";
+  margin-left: 8px;
+  position: relative;
+  align-items: center;
+ padding-bottom: 25px;
+}
+
+
+.chacara img{
+    height: 200px ;
+    width: 90%;
+    border-radius: 30px;
+  
+}
+
+.quadradoTitulo{
+        background: linear-gradient(90deg, #0E333D, #195E70);
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent;
+  max-width: 100%;
+
+}
+
+.artigo{
+    font-size: 50px;
+        background: linear-gradient(90deg, #0E333D, #195E70);
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent;
+}
+
+
+
+.boxdiv {
+    background: linear-gradient(90deg, #0E333D, #195E70);
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 70px;
+    display: flex;             
+    flex-direction: column;     
+    justify-content: center;
+    align-items: center;       
+    border-radius: 30px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    height: 350px;
+}
+
+.tet {
+    font-size: 30px;
+    margin-bottom: 12px;
+}
+
+.botoes3 {
+    display: flex;              
+    justify-content: center;    
+    align-items: center;        
+    margin-top: 20px;
+}
+
+.inscrito {
+    background-color: white;
+    color: #0E333D;
+    padding: 12px 25px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.inscrito:hover {
+    background-color: #0E333D;
+    color: white;
+}
+
+
+.footer-container{
+max-width: 1600px;
+color: #fff;
+  padding: 40px 80px;
+  border-top: 10px solid #0E333D;
+  background-color: #0E333D;
+  margin: 0 auto;
+  height: 200px;
+  position: relative;
+}
+
+.footer-container::before {
+  content: "";
+  position: absolute;
+  bottom: 60px;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background-color: #ffffff; 
+}
+.textosGerais{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  color: #383636;
+  column-gap: 90px ;
+
+}
+
+li {
+    color: #fff;
+
+}
+
+.final {
+  text-align: center;
+  font-size: 14px;
+  color: #ffffff;
+  margin-top: 70px;
+}
